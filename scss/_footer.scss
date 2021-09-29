@@ -22,6 +22,20 @@ footer {
     }
 }
 
+footer.footerClientes {
+
+    @media screen and (min-width: 300px) {
+    position: static;
+    bottom: 0;
+    }
+
+    @media screen and (min-width: 550px) {
+    position: fixed;
+    bottom: 0;
+    }
+
+}
+
 footer p {
     margin: auto 30px;
 }
