@@ -1,0 +1,53 @@
+/* Contact Container - Contacto */
+
+.serviciosContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clientesContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clientesContainer p {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.contactContainer {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h1 {
+    margin: 40px 0px 20px 0px;
+    text-align: center;
+}
+
+.contactContainer p {
+    margin-top: 25px;
+}
+
+form {
+    width: 50%;
+    margin-top: 15px;
+    @media screen and (min-width: 300px) {
+        width: 100%;
+        max-width: 80vw;
+    }
+    @media screen and (min-width: 550px) {
+        width: 100%;
+        max-width: 80vw;
+    }
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        max-width: 25vw;
+    }
+}
+
+.form-btn {
+    background-color: #a20d5d !important;
+    color: white !important;
+    text-transform: uppercase;
+}

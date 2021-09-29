@@ -1,0 +1,83 @@
+/* Hero - Home */
+
+.hero {
+    position: relative;
+    width: 100vw;
+    background-size: cover;
+    margin: auto 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px 100px;
+    height: 15vh;
+}
+
+.heroImagen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+h1.heroHome {
+    text-align: center;
+    color: white;
+    margin-bottom: 35px;
+    position: relative;
+    font-size: 35px;
+}
+
+h1 {
+    color: #a20d5d;
+}
+
+.parrafoUno {
+    color: #d9dadc;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 0 100px 0 100px;
+    position: relative;
+}
+
+.agendarCita {
+    background-color: #a20d5d;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.agendarCita:hover {
+    background-color: #530931;
+    transition: all ease 0.35s;
+}
+
+textarea {
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.modal-title {
+    margin-left: 5rem;
+}
+
+.agendarCitaForm {
+    width: 100%;
+}
+
+lottie-player {
+    margin: 5px auto;
+}
+
+.containerLink {
+    margin-top: 10px;
+}
+
+/* End of Hero - Home*/

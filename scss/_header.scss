@@ -1,0 +1,91 @@
+/* Header*/
+
+.logo {
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 35%;
+    padding-bottom: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-top: 35px;
+}
+
+.navbar-nav {
+    margin-right: 50px !important;
+}
+
+.menu {
+    display: flex;
+}
+
+.menuItem {
+    list-style: none;
+    margin: 0 20px 0 40px;
+}
+
+.menuItem a,
+a:active,
+a:link {
+    color: #a20d5d;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.menuItem:hover {
+    transform: scale(1.35);
+    transition: all ease 0.5s;
+}
+
+.iconContainer {
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+
+.iconContainer i {
+    font-size: 1.8rem;
+    margin: 0px 10px;
+}
+
+.iconContainer a:link:hover {
+    transform: scale(1.35);
+    transition: all ease 0.5s;
+}
+
+.iconContainer .bi-facebook {
+    color: #4267B2; 
+}
+
+.iconContainer .bi-instagram {
+    color: #C13584;
+}
+
+.iconContainer .bi-whatsapp {
+    color: #25D366;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end !important;
+    margin-left: 10rem !important;
+    @media screen and (min-width: 300px) {
+       margin-left: 0 !important;
+    }
+
+}
+
+/* End of Header*/

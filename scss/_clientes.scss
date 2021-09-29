@@ -1,0 +1,17 @@
+/*CLIENTES */
+
+.clientesLogos {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 220px));
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    place-content: center;
+    
+    img:hover {
+        transform: scale(1.45);
+        transition: ease all 0.5s;
+    }
+
+}

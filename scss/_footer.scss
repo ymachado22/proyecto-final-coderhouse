@@ -1,0 +1,27 @@
+/* FOOTER */
+
+footer {
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(162, 13, 93, 1) 0%, rgba(180, 51, 120, 1) 49%, rgba(151, 12, 86, 1) 100%);
+    color: white;
+    display: grid;
+    text-align: center;
+    margin-top: 150px;
+    bottom: 0;
+    position: fixed;
+    @media screen and (min-width: 300px) {
+        position: static; 
+    }
+    @media screen and (min-width: 550px) {
+        position: static;
+    }
+    @media screen and (min-width: 768px) {
+        position: static;
+        bottom: 0;
+    }
+}
+
+footer p {
+    margin: auto 30px;
+}

@@ -1,0 +1,38 @@
+.boletines {
+    background-color: #f8f9fa;
+    padding: 30px 0px;
+}
+
+.boletinesContainer {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.boletinesContainer h3 {
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+.boletinesContainer p {
+    margin-top: 25px;
+     
+}
+.boletinesListaSecundaria li {
+    list-style: disc;  
+}
+
+table {
+margin: 0 auto;
+max-width: 950px !important;
+text-align: center;
+border-color: #9b9d9e !important;
+}
+
+small {
+font-size: .875em;
+background-color: #a10e5740 !important;
+padding: 4px 12px;
+color: #a10e57 !important;
+border-radius: 5px;
+font-weight: 600 !important;
+}

@@ -1,0 +1,88 @@
+/* Mis Servicios - Home*/
+
+h4 {
+    color: #a20d5d;
+}
+
+.servicios {
+    color: #a20d5d;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.containerServicios {
+    width: 350px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+}
+
+a,
+a:active,
+a:link {
+    text-decoration: none;
+}
+
+.serviciosDescripcion {
+    text-align: center;
+    padding: 0 15px 0 15px;
+    line-height: 25px;
+}
+
+/* SERVICIOS */
+
+.servicioContainer {
+    background-color: #dfdfdfa1;
+    padding: 40px 30px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdfa1;
+    margin-top: 25px;
+}
+
+.servicioTitulo {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+.servicioDescripcion {
+    display: flex;
+    padding: 10px 40px;
+    margin-bottom: 70px;
+    flex-direction: column;
+    @media screen and (min-width: 300px) {
+        padding: 0px 19px;
+    }
+    @media screen and (min-width: 550px) {
+        padding: 0px 25px;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding: 0px 40px;
+        }
+}
+
+.servicioDescripcion>p {
+    text-align: justify;
+    line-height: 1.75;
+}
+
+.grayBg {
+    background-color: #f8f9fa
+}
+
+#outsourcing, #impuestos, #sueldos, #auditoria {
+    scroll-margin-top: 15rem !important;
+}
+
+/* Fin de MIS SERVICIOS */

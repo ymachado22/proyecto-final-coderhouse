@@ -1,0 +1,29 @@
+/* Poniendo color y estilo */
+
+/*Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2, h1 {
+    font-weight: 700 !important;
+}
+
+p, ul, li, h3 {
+    line-height: 1.8 !important;
+}
+
+a, a:link, a:active {
+color: #C13584
+}
+
+

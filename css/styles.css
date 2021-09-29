@@ -1,0 +1,635 @@
+/* Poniendo color y estilo */
+/*Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f9fa;
+}
+
+h2, h1 {
+  font-weight: 700 !important;
+}
+
+p, ul, li, h3 {
+  line-height: 1.8 !important;
+}
+
+a, a:link, a:active {
+  color: #C13584;
+}
+
+/* FOOTER */
+footer {
+  height: 60px;
+  width: 100%;
+  background: linear-gradient(180deg, #a20d5d 0%, #b43378 49%, #970c56 100%);
+  color: white;
+  display: grid;
+  text-align: center;
+  margin-top: 150px;
+  bottom: 0;
+  position: fixed;
+}
+@media screen and (min-width: 300px) {
+  footer {
+    position: static;
+  }
+}
+@media screen and (min-width: 550px) {
+  footer {
+    position: static;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    position: static;
+    bottom: 0;
+  }
+}
+
+footer p {
+  margin: auto 30px;
+}
+
+/* Header*/
+.logo {
+  margin-left: 35px;
+  margin-top: 20px;
+  width: 35%;
+  padding-bottom: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  margin-top: 35px;
+}
+
+.navbar-nav {
+  margin-right: 50px !important;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItem {
+  list-style: none;
+  margin: 0 20px 0 40px;
+}
+
+.menuItem a,
+a:active,
+a:link {
+  color: #a20d5d;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.menuItem:hover {
+  transform: scale(1.35);
+  transition: all ease 0.5s;
+}
+
+.iconContainer {
+  margin-top: 25px;
+  margin-right: 40px;
+  margin-left: 60px;
+}
+
+.iconContainer i {
+  font-size: 1.8rem;
+  margin: 0px 10px;
+}
+
+.iconContainer a:link:hover {
+  transform: scale(1.35);
+  transition: all ease 0.5s;
+}
+
+.iconContainer .bi-facebook {
+  color: #4267B2;
+}
+
+.iconContainer .bi-instagram {
+  color: #C13584;
+}
+
+.iconContainer .bi-whatsapp {
+  color: #25D366;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end !important;
+  margin-left: 10rem !important;
+}
+@media screen and (min-width: 300px) {
+  .navbar-expand-lg .navbar-collapse {
+    margin-left: 0 !important;
+  }
+}
+
+/* End of Header*/
+.boletines {
+  background-color: #f8f9fa;
+  padding: 30px 0px;
+}
+
+.boletinesContainer {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.boletinesContainer h3 {
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+.boletinesContainer p {
+  margin-top: 25px;
+}
+
+.boletinesListaSecundaria li {
+  list-style: disc;
+}
+
+table {
+  margin: 0 auto;
+  max-width: 950px !important;
+  text-align: center;
+  border-color: #9b9d9e !important;
+}
+
+small {
+  font-size: 0.875em;
+  background-color: #a10e5740 !important;
+  padding: 4px 12px;
+  color: #a10e57 !important;
+  border-radius: 5px;
+  font-weight: 600 !important;
+}
+
+/* Mis Servicios - Home*/
+h4 {
+  color: #a20d5d;
+}
+
+.servicios {
+  color: #a20d5d;
+  margin-left: 140px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.containerServicios {
+  width: 350px;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+}
+
+a,
+a:active,
+a:link {
+  text-decoration: none;
+}
+
+.serviciosDescripcion {
+  text-align: center;
+  padding: 0 15px 0 15px;
+  line-height: 25px;
+}
+
+/* SERVICIOS */
+.servicioContainer {
+  background-color: #dfdfdfa1;
+  padding: 40px 30px;
+  border-radius: 5px;
+  border: 1px solid #dfdfdfa1;
+  margin-top: 25px;
+}
+
+.servicioTitulo {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.servicioDescripcion {
+  display: flex;
+  padding: 10px 40px;
+  margin-bottom: 70px;
+  flex-direction: column;
+}
+@media screen and (min-width: 300px) {
+  .servicioDescripcion {
+    padding: 0px 19px;
+  }
+}
+@media screen and (min-width: 550px) {
+  .servicioDescripcion {
+    padding: 0px 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .servicioDescripcion {
+    padding: 0px 40px;
+  }
+}
+
+.servicioDescripcion > p {
+  text-align: justify;
+  line-height: 1.75;
+}
+
+.grayBg {
+  background-color: #f8f9fa;
+}
+
+#outsourcing, #impuestos, #sueldos, #auditoria {
+  scroll-margin-top: 15rem !important;
+}
+
+/* Fin de MIS SERVICIOS */
+/* Contact Container - Contacto */
+.serviciosContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clientesContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clientesContainer p {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.contactContainer {
+  text-align: center;
+  margin-top: 25px;
+}
+
+h1 {
+  margin: 40px 0px 20px 0px;
+  text-align: center;
+}
+
+.contactContainer p {
+  margin-top: 25px;
+}
+
+form {
+  width: 50%;
+  margin-top: 15px;
+}
+@media screen and (min-width: 300px) {
+  form {
+    width: 100%;
+    max-width: 80vw;
+  }
+}
+@media screen and (min-width: 550px) {
+  form {
+    width: 100%;
+    max-width: 80vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  form {
+    width: 100%;
+    max-width: 25vw;
+  }
+}
+
+.form-btn {
+  background-color: #a20d5d !important;
+  color: white !important;
+  text-transform: uppercase;
+}
+
+/* Hero - Home */
+.hero {
+  position: relative;
+  width: 100vw;
+  background-size: cover;
+  margin: auto 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 100px 100px;
+  height: 15vh;
+}
+
+.heroImagen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+h1.heroHome {
+  text-align: center;
+  color: white;
+  margin-bottom: 35px;
+  position: relative;
+  font-size: 35px;
+}
+
+h1 {
+  color: #a20d5d;
+}
+
+.parrafoUno {
+  color: #d9dadc;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: justify;
+  padding: 0 100px 0 100px;
+  position: relative;
+}
+
+.agendarCita {
+  background-color: #a20d5d;
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.agendarCita:hover {
+  background-color: #530931;
+  transition: all ease 0.35s;
+}
+
+textarea {
+  border: 1px solid #ced4da;
+  padding: 10px;
+  width: 100%;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-title {
+  margin-left: 5rem;
+}
+
+.agendarCitaForm {
+  width: 100%;
+}
+
+lottie-player {
+  margin: 5px auto;
+}
+
+.containerLink {
+  margin-top: 10px;
+}
+
+/* End of Hero - Home*/
+/*CLIENTES */
+.clientesLogos {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(150px, 220px));
+  grid-template-rows: auto;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+  place-content: center;
+}
+.clientesLogos img:hover {
+  transform: scale(1.45);
+  transition: ease all 0.5s;
+}
+
+/* Media Queries  300px */
+/* Mobile*/
+@media screen and (min-width: 300px) {
+  .container {
+    width: 90%;
+  }
+
+  .containerServicios {
+    margin: 7px 10px 10px 10px;
+    width: 90%;
+    height: 100%;
+    max-height: 500px;
+  }
+
+  .servicios {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .serviciosDescripcion {
+    padding: 10px 30px;
+    line-height: 25px;
+    color: #5d5d5d;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .logo {
+    width: 20%;
+    min-width: 150px;
+  }
+
+  nav {
+    margin-top: 15px;
+  }
+
+  .iconContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .hero {
+    height: 35vh;
+    padding: 0px;
+  }
+
+  .navbar-nav {
+    margin-right: 0 !important;
+  }
+
+  h1 {
+    margin: 0px;
+  }
+
+  h1.heroHome {
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .parrafoUno {
+    margin-top: 15px;
+    padding: 0px;
+    font-size: 17px;
+    text-align: center;
+    text-shadow: 2px 2px #4b4a4a;
+  }
+
+  .containerAgendarCita {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  div > .agendarCita {
+    background-color: #a20d5d;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+  }
+
+  .clientesLogos {
+    grid-template-columns: repeat(2, minmax(100px, 200px));
+  }
+
+  .serviciosContainer {
+    width: 100% !important;
+    max-width: 1400px;
+    padding: 14px !important;
+  }
+
+  .servicioContainer {
+    padding: unset;
+  }
+
+  .serviciosDescripcion {
+    padding: 0 !important;
+  }
+
+  .servicioDescripcion {
+    padding: 40px !important;
+  }
+
+  footer {
+    margin-top: 35px;
+  }
+}
+/* Medium Screen 550px*/
+@media screen and (min-width: 550px) {
+  header {
+    display: flex;
+  }
+
+  .menu {
+    display: flex;
+    width: 100%;
+  }
+
+  .menuItem {
+    margin: 0 10px 0 30px;
+  }
+
+  .iconContainer {
+    margin-left: 0px;
+    margin-right: 80px;
+    margin-top: 0px;
+  }
+
+  .clientesLogos {
+    grid-template-columns: repeat(3, minmax(100px, 200px));
+  }
+}
+/* Large 768px*/
+@media screen and (min-width: 768px) {
+  .containerServicios {
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    height: 100%;
+    max-height: 480px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  h1.heroHome {
+    font-size: 35px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+  }
+
+  .containerAgendarCita {
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .agendarCita {
+    background-color: #a20d5d;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .agendarCita:hover {
+    background-color: #530931;
+    transition: all ease 0.35s;
+  }
+
+  .clientesLogos {
+    grid-template-columns: repeat(4, minmax(100px, 200px));
+  }
+
+  .servicioContainer {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
