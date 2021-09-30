@@ -20,9 +20,11 @@ h4 {
 .containerServicios {
     width: 350px;
     text-align: center;
-    padding: 15px;
     border: 2px solid gainsboro;
     border-radius: 5px;
+    @media screen and (min-width: 550px) {
+        padding: 15px;
+    }
 }
 
 a,

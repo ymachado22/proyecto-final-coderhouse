@@ -220,9 +220,13 @@ h4 {
 .containerServicios {
   width: 350px;
   text-align: center;
-  padding: 15px;
   border: 2px solid gainsboro;
   border-radius: 5px;
+}
+@media screen and (min-width: 550px) {
+  .containerServicios {
+    padding: 15px;
+  }
 }
 
 a,
@@ -438,7 +442,7 @@ lottie-player {
   grid-template-rows: auto;
   align-items: center;
   justify-items: center;
-  gap: 10px;
+  gap: 15px;
   place-content: center;
 }
 .clientesLogos img:hover {
@@ -539,7 +543,7 @@ lottie-player {
   }
 
   .clientesLogos {
-    grid-template-columns: repeat(2, minmax(100px, 200px));
+    grid-template-columns: repeat(2, minmax(150px, 200px));
   }
 
   .serviciosContainer {
